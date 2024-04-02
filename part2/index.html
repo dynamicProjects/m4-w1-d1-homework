@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Validator</title>
-    <!-- Vue.js CDN link -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <!-- jQuery CDN link (must be included before Bootstrap JS) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Bootstrap CSS CDN link -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap JS CDN link (included after jQuery) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
           .has_required {
@@ -63,7 +59,6 @@
                 this.has_special = /[!@#\$%\^\&*\)\(+=._-]/.test(this.password)
                }
             },
-            // Your methods go here
         });
         var app = new Vue({
        el: '#app'
